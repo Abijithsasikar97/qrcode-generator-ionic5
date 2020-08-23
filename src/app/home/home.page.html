@@ -1,20 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="primary">
     <ion-title>
-      Blank
+      QRCODE Generator
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h4><b (click)="createQRCode()">CLICK ME </b> TO GENERATE QR CODE</h4>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-card class="qrcode" *ngIf="createdCode">
+    <ngx-qrcode [value]="createdCode" *ngIf="createdCode"></ngx-qrcode>
+    <ion-card-content style="text-align: center;">{{createdCode}}</ion-card-content>
+  </ion-card>
 </ion-content>
