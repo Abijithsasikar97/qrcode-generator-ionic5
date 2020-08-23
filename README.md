@@ -1,6 +1,6 @@
 QRCODE GENERATOR IN IONIC 5
 
-INSTALL PLUUGIN 
+INSTALLATION
 
 > npm install ngx-qrcode2 --save
 
