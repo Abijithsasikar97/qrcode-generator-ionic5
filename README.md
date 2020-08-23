@@ -7,4 +7,4 @@ INSTALL PLUUGIN
 After follow my code to generate qrcode.
 
 
-********************WAIT FOR SCHREENSHOT AND SOCIAL SHARE***********************
+********************WAIT FOR SCHREENSHOT AND SOCIAL SHARE IONIC***********************
